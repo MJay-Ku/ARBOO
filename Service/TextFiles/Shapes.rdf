@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-35 "http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#"
+     xml:base="http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35"
+     xmlns:untitled-ontology-35="http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#hasAngle -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-35;hasAngle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#hasRib -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-35;hasRib"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#hasSurface-Area -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-35;hasSurface-Area"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#hasSurrounding -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-35;hasSurrounding"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#hasTexture -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-35;hasTexture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#hasTriangle -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-35;hasTriangle"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#Cube -->
+
+    <owl:Class rdf:about="&untitled-ontology-35;Cube">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-35;Square"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#Pyramid -->
+
+    <owl:Class rdf:about="&untitled-ontology-35;Pyramid">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-35;Triangle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#Rectangle -->
+
+    <owl:Class rdf:about="&untitled-ontology-35;Rectangle">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-35;Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#Shape -->
+
+    <owl:Class rdf:about="&untitled-ontology-35;Shape"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#Sphere -->
+
+    <owl:Class rdf:about="&untitled-ontology-35;Sphere">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-35;Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#Square -->
+
+    <owl:Class rdf:about="&untitled-ontology-35;Square">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-35;Rectangle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#Triangle -->
+
+    <owl:Class rdf:about="&untitled-ontology-35;Triangle">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-35;Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#12 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-35;12"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#24 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-35;24"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#4 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-35;4"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#4000000 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-35;4000000"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#510000000 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-35;510000000"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#8 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-35;8"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#Cube -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-35;Cube">
+        <rdf:type rdf:resource="&untitled-ontology-35;Shape"/>
+        <rdf:type rdf:resource="&untitled-ontology-35;Square"/>
+        <hasRib rdf:resource="&untitled-ontology-35;12"/>
+        <hasAngle rdf:resource="&untitled-ontology-35;24"/>
+        <hasTexture rdf:resource="&untitled-ontology-35;SoftTexture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#Pyramid -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-35;Pyramid">
+        <rdf:type rdf:resource="&untitled-ontology-35;Shape"/>
+        <rdf:type rdf:resource="&untitled-ontology-35;Triangle"/>
+        <hasTriangle rdf:resource="&untitled-ontology-35;4"/>
+        <hasRib rdf:resource="&untitled-ontology-35;8"/>
+        <hasTexture rdf:resource="&untitled-ontology-35;SoftTexture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#SoftTexture -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-35;SoftTexture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#Sphere -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-35;Sphere">
+        <rdf:type rdf:resource="&untitled-ontology-35;Shape"/>
+        <hasSurrounding rdf:resource="&untitled-ontology-35;4000000"/>
+        <hasSurface-Area rdf:resource="&untitled-ontology-35;510000000"/>
+        <hasTexture rdf:resource="&untitled-ontology-35;hardTexture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mjay/ontologies/2014/0/untitled-ontology-35#hardTexture -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-35;hardTexture"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
